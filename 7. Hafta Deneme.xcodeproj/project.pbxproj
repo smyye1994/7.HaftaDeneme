@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B9FB82141BE83C9B6917FF /* Pods_7__Hafta_Deneme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01563322F50FDA677A9EFC94 /* Pods_7__Hafta_Deneme.framework */; };
+		842B7D7A28B63C6700FE1BA2 /* ATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B7D7928B63C6700FE1BA2 /* ATableViewCell.swift */; };
+		84BF52E728B52AB6006AB68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF52E628B52AB6006AB68E /* AppDelegate.swift */; };
+		84BF52E928B52AB6006AB68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF52E828B52AB6006AB68E /* SceneDelegate.swift */; };
+		84BF52EB28B52AB6006AB68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF52EA28B52AB6006AB68E /* ViewController.swift */; };
+		84BF52EE28B52AB6006AB68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF52EC28B52AB6006AB68E /* Main.storyboard */; };
+		84BF52F028B52AB6006AB68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF52EF28B52AB6006AB68E /* Assets.xcassets */; };
+		84BF52F328B52AB6006AB68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF52F128B52AB6006AB68E /* LaunchScreen.storyboard */; };
+		84BF52FB28B531BC006AB68E /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF52FA28B531BC006AB68E /* AViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01563322F50FDA677A9EFC94 /* Pods_7__Hafta_Deneme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_7__Hafta_Deneme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842B7D7928B63C6700FE1BA2 /* ATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATableViewCell.swift; sourceTree = "<group>"; };
+		84BF52E328B52AB6006AB68E /* 7. Hafta Deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7. Hafta Deneme.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BF52E628B52AB6006AB68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84BF52E828B52AB6006AB68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84BF52EA28B52AB6006AB68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84BF52ED28B52AB6006AB68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BF52EF28B52AB6006AB68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BF52F228B52AB6006AB68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BF52F428B52AB6006AB68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF52FA28B531BC006AB68E /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		E6B2BC9BCBCD9D1D1A484353 /* Pods-7. Hafta Deneme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7. Hafta Deneme.debug.xcconfig"; path = "Target Support Files/Pods-7. Hafta Deneme/Pods-7. Hafta Deneme.debug.xcconfig"; sourceTree = "<group>"; };
+		EE01009FB3ACEB398AC8F26B /* Pods-7. Hafta Deneme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7. Hafta Deneme.release.xcconfig"; path = "Target Support Files/Pods-7. Hafta Deneme/Pods-7. Hafta Deneme.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BF52E028B52AB6006AB68E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B9FB82141BE83C9B6917FF /* Pods_7__Hafta_Deneme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA0503B465552FC7B9363CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2BC9BCBCD9D1D1A484353 /* Pods-7. Hafta Deneme.debug.xcconfig */,
+				EE01009FB3ACEB398AC8F26B /* Pods-7. Hafta Deneme.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84BF52DA28B52AB6006AB68E = {
+			isa = PBXGroup;
+			children = (
+				84BF52E528B52AB6006AB68E /* 7. Hafta Deneme */,
+				84BF52E428B52AB6006AB68E /* Products */,
+				7EA0503B465552FC7B9363CD /* Pods */,
+				ABDD5A525DAC36F946F84FDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84BF52E428B52AB6006AB68E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BF52E328B52AB6006AB68E /* 7. Hafta Deneme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BF52E528B52AB6006AB68E /* 7. Hafta Deneme */ = {
+			isa = PBXGroup;
+			children = (
+				84BF52E628B52AB6006AB68E /* AppDelegate.swift */,
+				84BF52E828B52AB6006AB68E /* SceneDelegate.swift */,
+				84BF52EA28B52AB6006AB68E /* ViewController.swift */,
+				84BF52FA28B531BC006AB68E /* AViewController.swift */,
+				842B7D7928B63C6700FE1BA2 /* ATableViewCell.swift */,
+				84BF52EC28B52AB6006AB68E /* Main.storyboard */,
+				84BF52EF28B52AB6006AB68E /* Assets.xcassets */,
+				84BF52F128B52AB6006AB68E /* LaunchScreen.storyboard */,
+				84BF52F428B52AB6006AB68E /* Info.plist */,
+			);
+			path = "7. Hafta Deneme";
+			sourceTree = "<group>";
+		};
+		ABDD5A525DAC36F946F84FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01563322F50FDA677A9EFC94 /* Pods_7__Hafta_Deneme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BF52E228B52AB6006AB68E /* 7. Hafta Deneme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BF52F728B52AB6006AB68E /* Build configuration list for PBXNativeTarget "7. Hafta Deneme" */;
+			buildPhases = (
+				4612844D0A7A9A20A1338809 /* [CP] Check Pods Manifest.lock */,
+				84BF52DF28B52AB6006AB68E /* Sources */,
+				84BF52E028B52AB6006AB68E /* Frameworks */,
+				84BF52E128B52AB6006AB68E /* Resources */,
+				6747984A148E7E09844DEC0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7. Hafta Deneme";
+			productName = "7. Hafta Deneme";
+			productReference = 84BF52E328B52AB6006AB68E /* 7. Hafta Deneme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BF52DB28B52AB6006AB68E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84BF52E228B52AB6006AB68E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84BF52DE28B52AB6006AB68E /* Build configuration list for PBXProject "7. Hafta Deneme" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BF52DA28B52AB6006AB68E;
+			productRefGroup = 84BF52E428B52AB6006AB68E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BF52E228B52AB6006AB68E /* 7. Hafta Deneme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BF52E128B52AB6006AB68E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF52F328B52AB6006AB68E /* LaunchScreen.storyboard in Resources */,
+				84BF52F028B52AB6006AB68E /* Assets.xcassets in Resources */,
+				84BF52EE28B52AB6006AB68E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4612844D0A7A9A20A1338809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-7. Hafta Deneme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6747984A148E7E09844DEC0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-7. Hafta Deneme/Pods-7. Hafta Deneme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-7. Hafta Deneme/Pods-7. Hafta Deneme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-7. Hafta Deneme/Pods-7. Hafta Deneme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BF52DF28B52AB6006AB68E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF52FB28B531BC006AB68E /* AViewController.swift in Sources */,
+				84BF52EB28B52AB6006AB68E /* ViewController.swift in Sources */,
+				84BF52E728B52AB6006AB68E /* AppDelegate.swift in Sources */,
+				84BF52E928B52AB6006AB68E /* SceneDelegate.swift in Sources */,
+				842B7D7A28B63C6700FE1BA2 /* ATableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84BF52EC28B52AB6006AB68E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF52ED28B52AB6006AB68E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BF52F128B52AB6006AB68E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BF52F228B52AB6006AB68E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BF52F528B52AB6006AB68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84BF52F628B52AB6006AB68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BF52F828B52AB6006AB68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B2BC9BCBCD9D1D1A484353 /* Pods-7. Hafta Deneme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVH3G334D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "7. Hafta Deneme/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumeyyekilicoglu.---Hafta-Deneme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BF52F928B52AB6006AB68E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE01009FB3ACEB398AC8F26B /* Pods-7. Hafta Deneme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVH3G334D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "7. Hafta Deneme/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumeyyekilicoglu.---Hafta-Deneme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BF52DE28B52AB6006AB68E /* Build configuration list for PBXProject "7. Hafta Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF52F528B52AB6006AB68E /* Debug */,
+				84BF52F628B52AB6006AB68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BF52F728B52AB6006AB68E /* Build configuration list for PBXNativeTarget "7. Hafta Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BF52F828B52AB6006AB68E /* Debug */,
+				84BF52F928B52AB6006AB68E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BF52DB28B52AB6006AB68E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_7__Hafta_Deneme {
+  umbrella header "Pods-7. Hafta Deneme-umbrella.h"
+
+  export *
+  module * { export * }
+}
