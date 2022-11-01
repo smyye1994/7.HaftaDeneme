@@ -30,12 +30,14 @@ class AViewController: UIViewController {
     private let textField : UITextField = {
         let textField = UITextField()
         textField.placeholder = "Title"
+        textField.textAlignment = .left
         
        return textField
     }()
         private let textField1 : UITextField = {
         let textField1 = UITextField()
         textField1.placeholder = "Note"
+        textField1.textAlignment = .left
         
        return textField1
     }()
